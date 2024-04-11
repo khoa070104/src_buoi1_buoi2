@@ -1,0 +1,107 @@
+.content_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content_header-text{
+    color : #0C7F0C;
+    font-style: italic;
+    font-size: 40px;
+    font-family: Ephesis;
+    font-weight: 550;
+}
+.content_header-img .img_header{
+    height: 138px;
+    width: 133px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.content_menu{
+    background-color: #0C7F0C;
+    
+}
+.content_menu ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.content_menu li {
+    margin-left:40px;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.content_menu a{
+    text-decoration: none;
+    color: white;
+}
+.content-banner{
+    display: flex;
+}
+.content-banner img{
+    width: 50%;
+}
+.content-info{
+    display: flex;
+}
+.content-info img{
+    width: 80%;
+    height: 350px;
+    margin-top: 20px;
+    
+}
+.content-info .detail_content{
+    margin-left: -70px;
+}
+.detail_content h2{
+    color: #9E6E8C;
+}
+.detail_content ul,.detail_content p{
+    font-size: 18px;
+}
+.detail_content li{
+    color: #95B7B1; 
+    font-style: italic;
+    list-style: circle;
+}
+.footer{
+    background-color: #0C7F0C;
+    text-align: center;
+}
+.form_js{
+    display: none;
+}
+.form_checkbox{
+    width: 35%;
+    margin-left: 90px;
+}
+.form_checkbox .form_header {
+    background-color: #0C7F0C;
+    text-align:  center;
+    color: white;
+}
+.form_header p{
+    margin: 0px;
+}
+.p1{
+    padding-top: 5px;
+}
+.p2{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.form_body{
+    background-color:#E9E3E3;
+}
+.couple_love{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.price{
+    margin-right: 5px;
+    color: orange
+}

@@ -1,0 +1,151 @@
+.header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-statement {
+    flex-basis: calc(100% * 5/12);
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+    color: #05860d;
+}
+
+.header-logo {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header-logo img {
+    height: 100%;
+}
+
+.nav-bar {}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    background-color: #05860d;
+    justify-content: center;
+    padding: 5px;
+}
+
+.nav-bar li {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    width: 50%;
+}
+
+.produc-des {
+    display: flex;
+    margin-top: 10px;
+}
+
+.product-img {
+    flex-basis: calc(100% * 5/ 12);
+}
+
+.product-details {
+    flex-basis: calc(100% * 7/ 12);
+    font-size: 16px;
+}
+
+.product-details h2 {
+    color: rgb(177, 47, 177);
+}
+
+.product-details ul {
+    list-style: circle;
+    font-style: italic;
+    color: rgb(4, 181, 181);
+}
+
+.order-tools {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.order-tools form {
+    margin: 0 30px;
+}
+
+form .menu {
+    background-color: #05860d;
+    padding: 10px;
+    text-align: center;
+}
+
+form .menu p {
+    color: white;
+    margin: 0;
+}
+
+form .items {
+    background-color: rgb(229, 226, 226);
+}
+
+form .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+form .order-item .product-price {
+    color: orange;
+}
+
+form button {
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product-name {
+    width: 100%;
+}
+
+.total {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: #05860d;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
